@@ -37,3 +37,7 @@ div {
 #violet {
   border-top-color: violet;
 }
+
+/* i guess this way would work if its the div is the only element of its kind; */
+/* this is kept dry but if there we other div elements it would not work beucase all*/
+/* all of the other divs will be set to the default, what we have above here*/ 
