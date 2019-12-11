@@ -1,5 +1,5 @@
-#red {
-  border: 20px solid red; /* this is short hand for setting
+div {
+  border: 20px solid #000; /* this is short hand for setting
                             the border's width, its type, and color */
   display: inline-block; /* a way of positioning elements */
   min-width: 20em; /* the two min styles make the shape */
@@ -10,68 +10,34 @@
   border-bottom-color: transparent; /* and the bottom of the circle */
 }
 
+#red {
+  border-top-color: red;
+}
+
 #orange {
-  border: 20px solid orange;
-  display: inline-block;
-  min-width: 20em;
-  min-height: 25em;
-  border-radius: 50%;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
+  border-top-color: orange;
 }
 
 #yellow {
-  border: 20px solid yellow;
-  display: inline-block;
-  min-width: 20em;
-  min-height: 25em;
-  border-radius: 50%;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
+  border-top-color: yellow;
 }
 
 #green {
-  border: 20px solid green;
-  display: inline-block;
-  min-width: 20em;
-  min-height: 25em;
-  border-radius: 50%;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
+  border-top-color: green;
 }
 
 #blue {
-  border: 20px solid blue;
-  display: inline-block;
-  min-width: 20em;
-  min-height: 25em;
-  border-radius: 50%;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
+  border-top-color: blue;
 }
 
 #indigo {
-  border: 20px solid indigo;
-  display: inline-block;
-  min-width: 20em;
-  min-height: 25em;
-  border-radius: 50%;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
+  border-top-color: indigo;
 }
 
 #violet {
-  border: 20px solid violet;
-  display: inline-block;
-  min-width: 20em;
-  min-height: 25em;
-  border-radius: 50%;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
+  border-top-color: violet;
 }
+
+/* i guess this way would work if its the div is the only element of its kind; */
+/* this is kept dry but if there we other div elements it would not work beucase all*/
+/* all of the other divs will be set to the default, what we have above here*/ 
